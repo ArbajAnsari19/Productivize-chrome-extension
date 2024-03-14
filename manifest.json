@@ -1,0 +1,16 @@
+{
+    "manifest_version":3,
+    "name":"Productivize",
+    "version":"0.0.1",
+    "description":"A Extension used for blocking social media sites ",
+    "content_scripts":[
+        {
+            "matches":[
+                "<all_urls>"
+            ],
+            "js":[
+                "app.js"
+            ]
+        }
+    ]
+}
